@@ -4,8 +4,8 @@
 using namespace std;
 int main()
 {
-	printf("u")
+	printf("u");
 	this_thread::sleep_for(chrono::milliseconds(60000));	
-	printf("gey")
-	system("PAUSE")
+	printf("gey");
+	getchar();
 }
