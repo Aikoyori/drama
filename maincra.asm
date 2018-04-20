@@ -15,7 +15,7 @@ _start:
    mov  ecx,0
    int  0x80
 
-   mov  edx,4
+   mov  edx,3
    mov  ecx,gey
    mov  ebx,1
    mov  eax,4
@@ -31,4 +31,4 @@ timeval:
   tv_usec dd 0
 
 u DB 'u',0xa
-gey  DB 'gey',0xa
+gey  DB 'gey'
