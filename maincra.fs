@@ -3,7 +3,7 @@ open System.Threading
 
 [<EntryPoint>]
 let main argv = 
-    printfn "u\n"
+    printfn "u"
     Thread.Sleep(60000)
     printfn "gey"
     0
